@@ -1,0 +1,54 @@
+Ejercitación 1 - Responder el siguiente cuestionario
+1. ¿Ventajas de HTML5?
+2. ¿Por qué utilizarlo?
+3. Nombre ventajas
+
+Ventajas: 
+-Es gratuito.
+-El codigo esta más ordenado: Esto es debido a que su estructura se puede separar facilmente entre etiquetas y contenido.
+-Compatibilidad en navegadores: Los navegadores modernos y populares como Chrome, Firefox, Safari y Opera soportan HTML5.
+-Almacenamiento mejorado: Permite que la información se mantenga almacenada incluso después de haber cerrado el navegador y como funciona desde el lado de cliente, la información se mantiene a salvo incluso si el usuario decide borrar sus cookies.
+-Diseño Adaptativo: HTML5 es compatible con navegadores moviles.
+
+Ejercitación 2
+2.A ¿Qué formatos soporta ?
+2.B Crear un elemento audio
+Ejemplo de src: https://html5tutorial.info/media/vincent.mp3
+
+Soporta mp3, wav, ogg, au.
+<audio src="https://html5tutorial.info/media/vincent.mp3" controls autoplay> </audio>
+No funciona el src que dan de prueba.
+
+
+
+
+Ejercitación 3
+3.A) ¿Qué formatos soporta ?
+3.B) Crear un elemento video
+Ejemplo de src: https://www.w3schools.com/html/mov_bbb.mp4/ogg
+
+Soporta mp4, webm y ogv.
+<video width="640" height="360" src="http://videos.mozilla.org/firefox/3.5/overview/overview.ogv" controls>
+Utilizo el del apunte ya que el src proporcionado no funciona.
+
+Ejercitación 4
+4.A) Crear un formulario con un campo requerido
+4.B) Crear un formulario con un campo de tipo email y validar que funcione
+4.C) Crear un formulario con un campo de tipo fecha y validar que funcione
+4.D) Crear un formulario con un campo de tipo color y validar que funcione
+4.E) Crear un formulario con un campo de tipo number y validar que funcione. Además configurar 
+valores mínimos y máximos permitidos
+
+<form action="#">
+        Nombre:<input type="text" required>
+        <br>
+        Email:<input type="email" id="emailusuario" required>
+        <br>
+        Fecha Nacimiento: <input type="date" id="fechaCumple" required>
+        <br>
+        Color Favorito:: <input type="color" id="colorFavorito" required>
+        <br>
+        Numero Favorito: <input type="number" id="numeroFavorito" min="0" max="100">
+        <br>
+        <button type="submit">Enviar Formulario</button>
+</form>
