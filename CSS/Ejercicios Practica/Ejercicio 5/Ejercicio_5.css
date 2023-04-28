@@ -1,0 +1,40 @@
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong{
+    color: red;
+}
+
+div p a[href] {
+    color: black;
+  }
+
+#ultimo ul li p{
+    color: yellow;
+ }
+
+#ultimo ul li a {
+    color: blue;
+}
+
+
+.importante{
+    color: green;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+
+
+h1[title] {
+    color: blue;
+}
+
+
+ol li a:link{
+    color: blue; 
+    text-decoration: none;
+}
+  
+ol li a:visited {
+    color: violet;
+    text-decoration: none;
+}

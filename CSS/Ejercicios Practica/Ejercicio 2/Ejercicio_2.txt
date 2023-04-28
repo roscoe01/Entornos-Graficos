@@ -1,0 +1,40 @@
+Ejercicio 2
+    Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.
+
+    p#normal {
+        font-family: arial,helvetica;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    *#destacado {
+        border-style: solid;
+        border-color: blue;
+        border-width: 2px;
+    }
+
+    #distinto {
+        background-color: #9EC7EB;
+        color: red;
+    }
+
+    <p id="normal">Este es un párrafo</p>
+
+    <p id="destacado">Este es otro párrafo</p>
+
+    <table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+
+    <p id="distinto">Este es el último párrafo</p>
+
+
+Los selectores CSS son todos por ID. 
+El primero refiere a que los parrafos con el ID normal, obtengan ese estilo.
+El segundo refiere a que todos los elementos que tengan ID destacado, obtengan ese estilo.
+El tercero refiere a que unicamente los elementos que tengan el ID distinto, obtengan ese estilo. 
+
+En el primer selector, cambia unicamente su fuente con su tamaño y grosor.
+En el segundo selector, cambia el borde de la caja que lo contiene, junto con su color y ancho.
+En el tercer selector, cambia el fondo del contenedor con el color de su letra.
+
+
+
