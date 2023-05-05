@@ -1,0 +1,44 @@
+.row{
+    justify-content: space-between;
+    
+}
+
+
+.header{
+    background-color: #a67da7;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+
+.sidebar{
+    background-color: #f5dad1;
+
+}
+
+.verde{
+    background-color: #68cc83;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+
+.gris{
+    background-color: #9d8d98;
+    height: 100px;
+    margin-bottom: 50px;
+
+
+}
+
+.azul{
+    background-color: #7c9ecb;
+    height: 250px;
+    width: 100%;
+}
+
+.alerta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
