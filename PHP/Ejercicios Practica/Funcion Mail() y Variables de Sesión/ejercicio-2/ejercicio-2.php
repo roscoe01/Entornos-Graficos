@@ -1,8 +1,7 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $fecha = date("d-m-Y");
     $hora = date("H:i:s");
-    $destino = "danyelisabet@gmail.com";
+    $destino = "jeronatan@gmail.com";
     $asunto = "Comentario";
     $desde = 'From: ' . htmlspecialchars($_POST['email']);
     $comentario = "
@@ -11,9 +10,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     Email: " . htmlspecialchars($_POST['email']) . "\n
     Consulta: " . htmlspecialchars($_POST['texto']) . "\n
     Enviado: $fecha a las $hora\n
-    \n
-    ";
-    mail($destino, $asunto, $comentario, $desde);
-    echo "Su consulta ha sido enviada. En breve recibirá nuestra respuesta.";
-}
+    \n ";
+
+    if (mail($destino, $asunto, $comentario, $desde)){
+        echo "Su consulta ha sido enviada. En breve recibirá nuestra respuesta.";
+    } else {
+        echo "No se ha podido enviar el consulta.";
+    }
 ?>
