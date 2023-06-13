@@ -1,0 +1,173 @@
+1. Qué es la Accesibilidad Web?
+La accesibilidad web refiere a que todas las personas puedan puedan acceder a un Sitio Web independientemente de sus capacidades técnicas, cognitivas o físicas.
+Esto es indispensable e imprescindible, ya que sino, esas personas quedan privadas de poder acceder a la información.
+
+
+2. Qué es la WAI?
+La WAI (Web Accesibility Initiative) es una actividad desarrollada por el W3C, cuyo objetivo es facilitar el acceso de las personas con discapacidad a los sitios web mediante unas "pautas" de accesibilidad y herramientas para su evalucación.
+
+
+3. Cuáles son los Componentes esenciales de Accesibilidad Web?
+Browsers, Media players, Assistive Technologies, Evaluation Tools, Authoring Tools.
+
+4. Qué son las Pautas de Accesibilidad al Contenido en la Web (WCAG)?
+Las Pautas de Accesibilidad al Contenido en la Web son pautas que tienen como fin guiar el diseño del Sitio Web a algo más accesible sin perder funcionalidad.
+
+
+5. Cuáles son los niveles de prioridad establecidos por las pautas?
+Prioridad 1: son puntos que un desarrollador Web tiene que cumplir porque sino, ciertos grupos de usuarios no podrían acceder a la información del sitio Web.
+Prioridad 2: son puntos que un desarrollador Web debería cumplir ya que, si no fuese así, a ciertos grupos de usuarios le resultaría muy difícil acceder a la información del sitio web.
+Prioridad 3: son puntos que un desarrollador Web debería cumplir ya que, de otra forma, algunos usuarios experimentarían ciertas dificultades para acceder a la información.
+
+
+6. Cuáles son los niveles de conformidad?
+Nivel de Conformidad "A": todos los puntos de verificación de prioridad 1 se satisfacen.
+Nivel de Conformidad "Doble A": todos los puntos de verificación de prioridad 1 y 2 se satisfacen.
+Nivel de Conformidad "Triple A": todos los puntos de verificación de prioridad 1, 2 y 3 se satisfacen.
+
+
+7. Qué es TAW?
+Es un test de Accesibilidad Web para analizar el nivel de accesibilidad de sitios web. La cual mejora el acceso a la web en general, no es únicamente para personas con discapacidad. 
+
+
+8. En qué consiste la Usabilidad Web?
+La usabilidad Web consiste en cómo percibe el usuario el Sitio Web. 
+En las normas ISO se define como "el nivel con el que un producto se adapta a las necesidades del usuario y pueder ser utilizado por los mismos para lograr unas metas específicas con efectividad, eficiencia y satisfacccion en un contexto específico de uso."
+
+
+9. A qué se refieren los conceptos de buscabilidad y visibilidad de un sitio web?
+Ambos conceptos son partes de un concepto mayor llamado Ubicuidad. 
+Por un lado, la buscabilidad refiere a poder encontrar el sitio. Por otra parte, la visibilidad refiere a que ese sitio, después de encontrarlo, pueda ser visto.
+
+
+10. A qué se refiere el concepto de fidelidad en relación a un sitio web?
+El concepto de fidelidad en relacion a un sitio web refiere a que si el usuario estuvo satisfecho con el sitio, es decir, que el contenido o servicio le fué util y que este vaya a recurrir a el para obtener esa información. Que sea adictivo en el buen uso de la palabra.
+
+
+11. Qué técnicas se utilizan para evaluar la usabilidad de un sistema?
+
+    1. Inspección formal de usabilidad.
+    Un grupo de expertos realizan una especie de juicio de la interfaz, con uno de los participantes actuando 
+    como moderador, destacando las fortalezas y las debilidades de la aplicación.
+
+    2. Testeo de usabilidad (Usability testing).
+    Se realizan pruebas de desempeño de un grupo de usuarios utilizando el sistema a probar y se graban los resultados para un análisis posterior. Esta actividad se puede desarrollar en un laboratorio con condiciones controladas o directamente en el lugar donde se va a utilizar el sistema.
+
+    3. Pensar en voz alta (Thinking aloud).
+    Se le pide al usuario que realice una serie de tareas específicas. El usuario debe de expresar sus acciones oralmente. Dentro de las instrucciones dadas al usuario de prueba no se le pide que expliquesus acciones, simplemente que cada paso que realice lo diga en voz alta (generalmente el mismo usuario da una serie de explicaciones sin pedírselo de manera explícita).
+
+    4. Evaluación heurística y de estándares.
+    En el área de Interfaces de Usuario existen una serie de estándares y de heurísticas ampliamente aceptados (y probados). En este tipo de evaluación un equipo de especialistas en usabilidad realizan una revisión conforme a estas normativas.
+
+    5. Caminata cognitiva.
+    Un grupo de expertos simula la manera en como un usuario caminaríapor la interfaz al enfrentarse a tareas particulares.
+
+
+
+12. Qué es la Independencia de Dispositivos y cuáles son sus ventajas desde los puntos de vista del usuario y del desarrollador?
+La Independencia de Dispositivos sirve para mejorar la experiencia del usuario ante un mercado que en los últimos años ha sufrido un rápido crecimiento en lo que a dispositivos y mecanismos de acceso a la Web se refiere, es decir, se trata de hacer la Web universal y accesible para cualquier persona, en cualquier sitio, en cualquier momento y usando cualquier dispositivo.
+
+Punto de Vista del Desarrollador: se programa una sola vez pero se aplica a cualquier mecanismo,
+de esta forma se evita la duplicación de información.
+Punto de Vista del Usuario: Tiene muchas más formas disponibles para acceder a la web.
+
+
+
+13. Qué es la Internacionalización y cómo funciona?
+Es un proceso por el cual se diseñan sitios web adaptables a diferentes idiomas y regiones sin necesidad de realizar cambios en el código. 
+Esto se hace utilizando formatos y protocolos que no establezcan barreras a los diferentes idiomas, sistemas de escritura, códigos y otras convenciones locales.
+
+Los identificadores de idioma, son un requisito imprescindible identificar el idioma de nuestra página al inicio del documento.
+
+
+
+14. Cuáles son los conceptos clave para el diseño web internacional?
+
+-Codificación:
+    Utilice Unicode siempre que sea posible para contenidos, bases de datos,etc. 
+    Siempre declare la codificación del contenido.
+
+-Escapes: Utilice caracteres en lugar de escapes (por ejemplo, &#xE1; &#225; o &aacute;) siempre que sea posible.
+
+-Idioma: Declare el idioma de los documentos e indique los cambios de idioma internos.
+         Presentación vs. contenido. Utilice hojas de estilo para información de presentación.
+         Restrinja el uso de etiquetas para la semántica.
+
+-Imágenes, animaciones y ejemplos: Verifique si es posible la traducción y si existe alguna influencia cultural inadecuada.
+
+-Formularios: Utilice una codificación adecuada tanto en el formulario como en elservidor. 
+              Admita los formatos locales de nombres/direcciones, horas/fechas, etc.
+
+-Autoría de texto: Utilice texto simple y conciso. Tenga cuidado al componer oraciones de cadenas múltiples.
+
+-Navegación: Incluya en cada página una navegación que pueda verse claramente hacia las páginas o los sitios localizados, utilizando el idioma de llegada.
+
+-Texto de derecha a izquierda: Para XHTML, agregue dir="rtl" a la etiqueta html.
+Utilícela nuevamente sólo para cambiar la dirección de base.
+
+
+15. Cuáles son las diferencias entre localización e internacionalización?
+
+La Localización abarca la adaptacion de un producto a las necesidades linguisticas, culturales u otras que se presenten al momento de que un producto llegue a cierto mercado. Es más complejo que traducir la interfaz de usuario y la documentación, ya que puede requerir incluso de la reelaboracion exhaustiva de la lógica, el diseño visual ó la presentación del producto en si.
+
+Mientras que la Internacionalización es el diseño y desarrollo de un producto de forma que sea facil consumirlo desde cualquier parte del mundo, esto quiere decir que sea sencillo de consumir para audiencias de diferentes culturas, regiones ó idiomas.
+
+
+16. A partir de la siguiente lista de comprobación para analizar un sitio web, diferenciar las preguntas que se refieren a aspectos de usabilidad (U) de las de accesibilidad (A)
+
+
+Aspectos Generales:
+    ¿Cumple el sitio con sus objetivos? USABILIDAD. (U)
+    
+    ¿Está diseñado para darle a los usuarios lo que ellos quieren? USABILIDAD. (U)
+    
+    ¿Es eficiente? USABILIDAD. (U)
+
+    ¿Es intuitivo? ACCESIBILIDAD. (A)
+    
+    ¿Mantiene una consistencia tanto en su funcionamiento como en su apariencia?  USABILIDAD. (U)
+
+    ¿Facilita que el usuario se sienta cómodo y con el control del sitio? ACCESIBILIDAD. (A)
+
+
+Navegación:
+    ¿Aparece la navegación en un lugar prominente, donde se vea fácilmente?  ACCESIBILIDAD. (A)
+
+    ¿Los enlaces que son imágenes tienen su atributo ALT escrito? ACCESIBILIDAD. (A)
+
+    Si ha usado JavaScript  para  la  navegación  ¿ha  preparado también una navegación en modo texto? ACCESIBILIDAD. (A)
+    
+    ¿Existen enlaces rotos o que no conducen a ningún sitio? USABILIDAD. (U)
+    
+    ¿Tiene el  sitio  un  site  map  o  un  buscador  para  quienes quieren  acceder  directamente  a  los  contenidos  sin  tener  que navegar?. USABILIDAD. (U)
+
+    ¿Se mantiene  una navegación  consistente  y  coherente  a  lo largo del site?  USABILIDAD. (U)
+    
+    ¿Existen elementos que permitan al usuario saber exactamente  dónde  se  encuentra  dentro  del  site  y  cómo  volver atrás (como “migas de pan”)?  ACCESIBILIDAD. (A)
+    
+    ¿Indican los enlaces claramente hacia dónde apuntan? ACCESIBILIDAD. (A)
+
+    ¿Está claro lo que el usuario encontrará detrás de cada uno? ACCESIBILIDAD. (A)
+
+
+
+Animaciones:
+    Evite  las  animaciones  cíclicas  (i.e.  gif  animados  que  se repiten   hasta  el  cansancio), a menos  que  cumplan  con  un  propósito claro. 
+    Use animaciones Flash sólo si es absolutamente necesario.
+
+    ACCESIBILIDAD. (A)
+
+Tecnología:
+    ¿La  tecnología  utilizada  en  el  site  es  compatible  con  el software y hardware de los usuarios objetivos? ACCESIBILIDAD. (A)
+
+    ¿No tendrán que descargar elementos como plug-ins para poder usarlo? USABILIDAD. (U)
+    
+    Si es importante utilizar recursos técnicos que requieran la descarga de plug-ins, ¿se  le informa  al  usuario  de  esta situación y se le explica la importancia de hacerlo? ACCESIBILIDAD. (A)
+
+
+Feedback:
+    ¿Se han previsto respuestas del sistema frente a interacciones del usuario? ACCESIBILIDAD. (A)
+
+    ¿Puede el usuario ponerse en contacto para hacer sugerencias o comentarios? USABILIDAD. (U)
+
+    
