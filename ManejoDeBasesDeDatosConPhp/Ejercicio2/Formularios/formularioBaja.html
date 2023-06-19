@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Ejercicio2/styles.css" />
+        <title>Formulario de Baja de Nueva Ciudad</title>
+    </head>
+
+    <body>
+        <h2>Formulario de Baja de Nueva Ciudad</h2>
+        <form action="../baja.php" method="post" name="formularioBaja">
+            <table>
+                <tr>
+                    <td>Ciudad a dar de Baja:</td>
+                    <td>
+                        <input
+                            type="number"
+                            name="id"
+                            size="255"
+                            maxlength="255"
+                            placeholder="ID de Ciudad"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <input type="submit" name="submit" value="Eliminar" />
+                        <p align="left">
+                            <a href="/Ejercicio2/index.php"
+                                ><p>Volver a pantalla de inicio</p>
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

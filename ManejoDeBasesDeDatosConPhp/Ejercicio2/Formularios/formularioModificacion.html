@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Ejercicio2/styles.css" />
+        <title>Formulario de Modificacion de Nueva Ciudad</title>
+    </head>
+
+    <body>
+        <h2>Formulario de Modificacion de Nueva Ciudad</h2>
+        <form
+            action="../modificacion.php"
+            method="post"
+            name="formularioModificacion"
+        >
+            <table>
+                <tr>
+                    <td>Ciudad a Modificar:</td>
+                    <td>
+                        <input
+                            type="number"
+                            name="id"
+                            size="255"
+                            maxlength="255"
+                            placeholder="ID de Ciudad"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="Modificar" />
+                        <p>
+                            <a href="/Ejercicio2/index.php"
+                                ><p>Volver a pantalla de inicio</p>
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

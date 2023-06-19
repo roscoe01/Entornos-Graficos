@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/Ejercicio2/styles.css">
+        <title>Nueva Ciudad</title>
+    </head>
+    <body>
+        <h2>Formulario de Alta de Nueva Ciudad</h2>
+        <form action="../alta.php" method="post" name="formuarioAlta">
+            <table width="225">
+                <tr></tr>
+                    <td>Ciudad:</td>
+                    <td>
+                        <input
+                            type="text"
+                            name="ciudad"
+                            size="20"
+                            maxlength="40"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pais:</td>
+                    <td>
+                        <input
+                            type="text"
+                            name="pais"
+                            size="20"
+                            maxlength="40"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Habitantes:</td>
+                    <td>
+                        <input
+                            type="number"
+                            name="habitantes"
+                            size="20"
+                            maxlength="40"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Superficie:</td>
+                    <td>
+                        <input
+                            type="number"
+                            name="superficie"
+                            size="20"
+                            maxlength="40"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tiene Metro?:</td>
+                    <td><input type="checkbox" name="tienemetro"/></td>
+                </tr>
+                <tr>
+                    <td colspan="5" align="center">
+                        <input type="submit" name="submit" value="Agregar" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <a href="/Ejercicio2/index.php"><p>Volver a pantalla de inicio</p> </a>
+    </body>
+</html>
